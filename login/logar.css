@@ -1,0 +1,74 @@
+html, body {
+  background-color: white;
+  height: 98%;
+  width: 98%;
+  text-align:center;
+  box-sizing: border-box;
+  margin: .5em;
+  position:absolute;
+}
+.caixaLogin{
+  height: 100%;
+  width: 98%;
+  margin: 0 auto; 
+}
+.submit{
+    width: 60%;
+    background-color: floralwhite;
+    border:8px solid floralwhite;
+    border-radius: 20px;
+    color: #020119;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 3px 2px #c4c1f0;
+}
+.recuperar_senha{
+  background: #020119;
+  border: 8px solid #020119;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+  font-style: italic;
+}
+form{
+  position: relative;
+  top: 5%;
+  transform: translateY(-50%) translateX(-50%)
+  height: 100%;
+  width: 100%; 
+  background-color: #020119;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 11px 10px #464554;
+}
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo {
+  font-weight: bold;
+}
+.header-right a:hover {
+  background-color: #020119;
+  color: white;
+}
+.header-right {
+  float: right;
+}
+.logo{
+  font-style: italic;
+  font-family: 'Nunito Sans';
+  font-weight: 200;
+  font-size: 200%;
+  text-align: center;

@@ -72,3 +72,22 @@ form{
   font-weight: 200;
   font-size: 200%;
   text-align: center;
+ }
+h1{
+  text-align:center;
+  font-style: italic;
+  font-family: 'Nunito Sans';
+  font-weight: 200;
+  font-size: 270%;
+  color: #020119;
+}
+.campo{
+  border-radius: 20px;
+  border: 4px solid floralwhite;
+}
+.headImg{
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  border-radius: 40px;
+}

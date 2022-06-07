@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="cR/crefugiada.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="header ">
+  <a href="#default" onclick="pinicial()" class="logo">r e f UKA</a>
+  <div class="header-right">
+    <a href="#home" onclick="denuncia()"><img src="https://cdn-icons-png.flaticon.com/512/659/659889.png" alt="Denuncia" class="headImg"></a>
+    <a href="#contact" onclick="ajuda()"><img src="https://cdn-icons-png.flaticon.com/512/41/41943.png" alt="Ajuda" class="headImg"></a>
+  </div>
+</div>
+
+  <form action="card">
+    <br>
+    <h3> Dados</h3>
+  <div>
+    <label for="nome"> Nome completo: </label> <br>
+    <input type="text" id="nome" name="nome" autocomplete="off"  checked="on" required="on" class="campo">
+  </div>
+  <br> 
+  <div> 
+    <label for="dataNasc"> Data de Nascimento:</label> <br>
+    <input type="date" id="dataNasc" name="dataNasc" autocomplete="off"  checked="on" required="on" class="campo data"> 
+  </div>
+  <br>
+  <div> 
+    <label for="mail"> E-mail:</label> <br>
+    <input type="email" id="mail" name="mail" checked="on" required="on" autocomplete="off" class="campo"> 
+  </div>
+  <br>
+  <div> 
+    <label for="idioma">Idiomas:</label><br>
+    <input type="text" id="idioma" name="idioma" checked="on" required="on" autocomplete="off" class="campo">
+  </div>
+  <br>
+  <div> 
+    <label for="tel">Telefone:</label><br>
+    <input type="text" id="tel" name="tel" checked="on" required="on" autocomplete="off" maxlength="15" pattern="[0-9]{15}" class="campo">
+  </div>
+  <br>
+    <br>
+  <div>
+  <label class="input-personalizado">
+    <span class="botao-selecionar">Compartilhe uma foto</span>
+    <img src="https://cdn-icons-png.flaticon.com/128/6009/6009198.png" alt="Imagem" class="ftUser">
+    <img class="imagem" />
+    <input type="file" class="input-file" accept="image/*">
+  </label>
+ </div>
+  <br>
+<h3>Filho (opcional)</h3>
+<div class="filho">
+    <div>
+  <label for="quantity">Número de filhos</label> <br>
+  <input type="number" id="quantity_filhos" name="quantity" min="1" max="5" class="campo" placeholder="1">
+    </div>
+    <br>
+  <div>
+  <label for="sexofilho">Sexo do filho:</label> <br>
+  <select id="sexofilho" name="sexofilho" class="campo">
+    <option value="feminino">Feminino</option>
+    <option value="masculino">Masculino</option>
+     <option value="neutro">Neutro</option>
+   </select>
+  </div>
+  <br>
+  <div>
+  <label for="quantity">Idade do filhos</label> <br>
+  <input type="number" id="quantity_idade" name="quantity" min="1" max="17" class="campo" placeholder="5">    
+  </div>
+</div>
+<h3>Senha</h3>
+  <br>
+  <div> 
+    <label for="userMail"> Senha:</label> <br>
+    <input type="password" name="password" id="password" autocomplete="off" required="on" maxlength="16" class="campo" class="campo">
+  </div>
+  <br>  
+  <div> 
+     <label for="userMail"> Confirma senha:</label> <br>
+    <input type="password" name="password" id="password_confirm" autocomplete="off" required="on" maxlength="16" class="campo">
+  </div>
+  <br>
+  <h3>Redes sociais (opcional)</h3>
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="rdImg">
+    <br>
+    <input type="text" id="inst" name="int" autocomplete="on"  placeholder="@user" class="rdCampo">
+  </div>
+  <br>
+      <div>
+    <img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" class="rdImg">
+    <br>
+    <input type="text" id="fcb" name="fcb" autocomplete="on"  placeholder="@user" class="rdCampo">
+  </div>
+  <br>
+    <div>
+    <img src="https://cdn-icons-png.flaticon.com/128/185/185988.png"" class="rdImg">
+    <br>
+   <input type="text" id="wtp" name="wtp" autocomplete="off" maxlength="15" pattern="[0-9]{15}" class="rdCampo">
+  </div>
+  <br>
+   <div>
+    <img src="https://cdn-icons-png.flaticon.com/128/179/179342.png" class="rdImg">
+    <br>
+    <input type="text" id="tw" name="tw" autocomplete="on"  placeholder="@user" class="rdCampo">
+  </div>
+  <br>
+    
+ <br> <input type="button" id="next" value="Próximo" class="submit" onclick="proximo()"> 
+    <br>
+    <br>
+    <br>
+  </form>
+  
+  <script src="cR/cr.js" >
+  </script>    
+</body>
+</html>

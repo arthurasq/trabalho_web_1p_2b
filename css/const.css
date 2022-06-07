@@ -1,0 +1,51 @@
+body{
+  background-color: #020119;
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin:0;
+}
+img{
+  width: 30%; 
+  background-color: floralwhite;
+}
+.borda{
+  margin-left: 20%;
+  margin-top: 10%;
+  height: 100%;
+  width: 60%; 
+  background-color: floralwhite;
+  color: #020119;
+  border-radius: 20px;
+  box-shadow: 11px 10px #a588a3;
+  text-align: center;
+  line-height: 200%;
+}
+.cont{
+  line-height: 30%;
+}
+.cnt{
+  font-size: 98%;
+}
+.ct{
+  font-size: 90%;
+}
+input{
+  background: floralwhite;
+  border: 5px solid floralwhite;
+  border-radius: 22px;
+  font-size: 80%;
+  text-align: center;
+  color: #020119;
+  float: right;
+  margin-right: 1em;
+}
+input:hover{
+  background: #020119;
+  border: 6px solid #020119;
+  border-radius: 22px; 
+  color: floralwhite;
+  text-align: center;
+  float: right;
+  margin-right: 1em;
+}

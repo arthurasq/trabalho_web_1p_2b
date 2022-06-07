@@ -1,0 +1,196 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin:0;
+  margin-top: .5em;
+  position:relative;
+  overflow: scroll;
+  background-color: #020119;
+  color: white;
+}    
+h1{
+  text-align:center;
+  font-style: italic;
+  font-family: 'Nunito Sans';
+  font-weight: 200;
+  font-size: 270%;
+  color: #020119;
+}
+input{
+  background: #ffffff;
+  border: 8px solid #fff;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #020119;
+}
+input:hover{
+  background: #020119;
+  border: 10px solid #020119;
+  border-radius: 20px; 
+  color: white;
+  text-align: center;
+}
+.header {
+  overflow: hidden;
+  background-color: #020119;
+  color: white;
+  margin-right: .5em;
+  margin-left: .5em;
+}
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header-right a:hover {
+  background-color: #020119;
+  color: white;
+}
+.header-right {
+  float: right;
+}
+.logo{
+  font-style: italic;
+  font-family: 'Nunito Sans';
+  font-size: 200%;
+ }
+td{
+  padding: .9em;
+  margin: 0 auto; 
+}
+table{
+  margin-bottom: .5em;
+  width: 100%;
+  margin: auto;
+}
+.table-responsive{
+  width: 100%;
+}
+.c1{
+  width:75%;
+  text-align: left;
+  vertical-align: middle;
+}
+.c2{
+  width: 20%;
+  text-align: center;
+  background-color: white;
+  color: #020119;
+  border: 10px solid #020119;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+tr{
+height: 20%;
+}
+.c3{
+  background: #ffffff;
+  border: 8px solid #fff;
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.c3:hover{
+  background: #020119;
+  border: 10px solid #020119;
+  border-radius: 20px; 
+  color: white;
+  text-align: center;
+}
+.c4{
+  text-align: center;
+  color: #020119;
+  line-height: 10%;
+  background-color: white;
+}
+.avatar{
+  height:90px;
+  width:90px;
+  background-color: #020119;
+  border: 7px solid #020119;
+  border-radius: 60px; 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nome{
+  height: 10%
+  text-align: center;
+  vertical-align: middle;
+}
+
+.preto{
+left: 0%;
+right: 0%;
+top: 0.1%;
+background: #ffffff;
+margin: 0
+}
+h3{
+  font-size: 25px;
+}
+h4{
+  font-size: 15px;
+}
+.headImg{
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  border-radius: 40px;
+}
+.algrd{
+  list-style-type: none;
+  margin-left: 40%;
+  text-align: left;
+}
+.rdImg{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 40px;
+}
+footer{
+  text-align:center;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  color: #020119;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.avatar{
+  height:90px;
+  width:90px;
+  background-color: #020119;
+  border: 7px solid #020119;
+  border-radius: 60px; 
+}
+.nome{
+  height: 10%;
+  text-align: center;
+  vertical-align: middle;
+}
+.texto{
+  margin: 2em;
+}

@@ -10,6 +10,9 @@ function denuncia(){
 function ajuda(){
   location.replace("construcao.html")
 }
+function esqSenha(){
+  location.replace("recuperar.html")
+}
 function init(){
   document.getElementById("senha").addEventListener(salvar)
   document.getElementById("userMail").addEventListener( salvar)

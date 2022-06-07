@@ -1,6 +1,3 @@
-function logar(){
-  location.replace("logar.html")
-}
 function pinicial(){
   location.replace("index.html")
 }

@@ -14,17 +14,16 @@ function esqSenha(){
   location.replace("recuperar.html")
 }
 function init(){
-  document.getElementById("senha").addEventListener(salvar)
+  document.getElementById("password").addEventListener(salvar)
   document.getElementById("userMail").addEventListener( salvar)
 }
 function login() {
-  var email = document.getElementById("userMail").value
-  var senha = document.getElementById("password").value
-  if("e-mail" in localStorage){
-   document.getElementById("userMail").value = localStorage.getItem("e-mail")
+  var userMail = document.getElementById("userMail").value
+  var password = document.getElementById("password").value
+  if("userMail" in localStorage){
+   document.getElementById("userMail").value = localStorage.getItem("userMail")
  }
-  if("senha" in localStorage){
-   document.getElementById("password").value = localStorage.getItem("senha")
+  if("password" in localStorage){
+   document.getElementById("password").value = localStorage.getItem("password")
  }
-  alert.log (email)
 }

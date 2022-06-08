@@ -21,7 +21,7 @@ function login() {
   var userMail = document.getElementById("userMail").value
   var password = document.getElementById("password").value
   if("userMail" in localStorage){
-   document.getElementById("userMail").value = localStorage.getItem("userMail")
+   document.getElementById("userMail").value = localStorage.getItem("mail")
  }
   if("password" in localStorage){
    document.getElementById("password").value = localStorage.getItem("password")
